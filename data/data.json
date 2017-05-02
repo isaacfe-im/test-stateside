@@ -1,0 +1,12 @@
+{
+    "path": {
+        "home-section": "/"
+    },
+    "config": {
+        "lang": "Es-es",
+        "title": "Titulo del sitio",
+        "description": "Descripcion del sitio",
+        "url": "http://site.com/",
+        "locale": "es_CR"
+    }
+}
