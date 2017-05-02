@@ -33,17 +33,6 @@ Al ejecutar **grunt** se iniciara la compilacion del sitio en la carpeta dev
 Al ejecutar **grunt prod** se iniciara ejecutara la tarea de Produccion una sola vez y se creara la carpeta web con los archivos de Producción
 
 
-##Configuración para el envío de correo
-En la carpeta App existen dos archivos el **config.php** que posee la configuración para el envío de correos y el **rules.php** que posee la validación de los campos de correo.
-
-Para la validación se está utilizando la libreria PHP **valitron.php**
-[Link del proyecto](https://github.com/vlucas/valitron).
-
-Para el envío de correos se está utilizando la libreria **PHPMailer** [Link del proyecto](https://github.com/PHPMailer/PHPMailer)
-
-Para el envío de correo debe mandarse el correo por **POST** a la url **sendmail** dentro del proyecto. El sendmail retornara una respuesta AJAX con dos valores **state** que tendrá un valor de "**ok**" o "**error**" y **message** que tendrá un mensaje de resultado.
-
-
 #Links de la documentación del compilador TWIG
 [Twig JS](http://showmethecode.es/php/twig/twig-js-plantillas-twig-en-el-lado-del-cliente/)
 
