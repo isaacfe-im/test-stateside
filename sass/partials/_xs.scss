@@ -1,0 +1,158 @@
+@charset "UTF-8";
+* {
+    @include create('box-sizing', border-box);
+    color: #726e6e;
+    font-family: $roboto;
+}
+h3,h4,h5,h6{
+	color: #404040;
+}
+footer{
+	//background: url("/img/texture.jpg") repeat;
+	background: #252825;
+	padding: 20px 0;
+	a{
+		text-decoration: none;
+	}
+	a,p{
+		color: #aeaeae;
+	}
+	p{
+		font-size: 18px;
+	}
+}
+ul,ol,li{
+	list-style-type: none;
+	padding: 0;
+}
+.btn--login{
+	display: block;
+    width: 90px;
+    height: 30px;
+    background: #de6d6e;
+    color: #fff !important;
+    padding: 4px 16px;
+    text-align: right;
+    text-decoration: none !important;
+    position: relative;
+	border-radius: 3px;
+    &:before{
+    	content: "";
+    	background: url("/img/icon-login.png") no-repeat 0 0;
+    	position: absolute;
+    	left: 12px;
+    	top: 6px;
+    	width: 18px;
+    	height: 16px;
+    }
+}
+.banner__bg{
+	background: url("/img/banner.jpg") no-repeat 0 0;
+	background-size: 100%;
+	height: 240px;
+	position: relative;
+}
+.banner__content{
+	position: absolute;
+    bottom: 40px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    h2{
+    	text-transform: uppercase;
+    	font-size: 36px;
+    	font-family: Tahoma;
+    }
+    p{
+    	color: #fff;
+    	font-size: 14px;
+    	font-weight: 100;
+    }
+}
+.circle{
+	width: 180px;
+    height: 180px;
+    border-radius: 9999px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 40px 20px;
+    font-size: 12px;
+    img{
+    	position: absolute;
+	    top: 60px;
+	    margin: auto;
+	    left: 0;
+	    right: 0;
+    }
+    span{
+    	color: #fff;
+	    position: absolute;
+	    bottom: 50px;
+	    z-index: 99999999;
+	    left: 0;
+	    right: 0;
+	    margin: auto;
+    }
+}
+.circle--light-blue{
+	background: #4eb9f4;
+}
+.circle--light-green{
+	background: #6fc125;
+}
+.circle--red{
+	background: #ff5649;
+}
+.circle--orange{
+	background: #e48f23;
+}
+
+.articles{
+	article{
+		margin-bottom: 30px;
+	}
+	h4{
+		font-size: 20px;
+	}
+	img{
+		display: block;
+		width: 100%;
+	}
+	p{
+		text-align: justify;
+	}
+}
+.slider_responsive{
+	margin-bottom: 40px;
+}
+.social{
+	p{
+		text-align: center;
+		font-size: 14px;
+	}
+}
+.social__list{
+	margin: 20px auto;
+	max-width: 277px;
+    width: 100%;
+	a{
+		display: block;
+		width: 52px;
+		height: 52px;
+	}
+}
+.facebook{
+	background: url("/img/icon-facebook.png");
+}
+.twitter{
+	background: url("/img/icon-twitter.png");
+}
+.dribbble{
+	background: url("/img/icon-dribbble.png");
+}
+.share{
+	background: url("/img/icon-share.png");
+}
+

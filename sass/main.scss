@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import "compass/utilities/general/clearfix";
+@import
+	"partials/mixins",
+  	"partials/variables",
+	"partials/fonts",
+	"partials/bootstrap",
+  	"partials/boilerplate",
+
+	//Plugins
+	"partials/slick",
+	"partials/slick-theme",
+
+  	//Custom
+	"partials/xs"
+;
