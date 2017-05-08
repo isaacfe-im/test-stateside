@@ -6,7 +6,9 @@ test Jr FE
 
 ##Configuración para las plantillas
 
-Para iniciar el proyecto hay que ejecutar **npm install**, para descargar las dependencias de **Grunt.js**, después ejecutar grunt. Después ejecutar **composer install**.
+Para iniciar el proyecto hay que ejecutar **sudo npm install**, para descargar las dependencias de **Grunt.js**, después ejecutar grunt. 
+
+Después ejecutar **sudo composer install**.
 
 El proyecto cuenta con los siguientes directorios:
 
@@ -32,6 +34,8 @@ En el **data.json** hay una llave **config** que posee valores globales como
 Al ejecutar **grunt** se iniciara la compilacion del sitio en la carpeta dev
 Al ejecutar **grunt prod** se iniciara ejecutara la tarea de Produccion una sola vez y se creara la carpeta web con los archivos de Producción
 
+**CONFIGURAR LOCALHOST**
+ - Debe apuntar a la carpeta dev.
 
 #Links de la documentación del compilador TWIG
 [Twig JS](http://showmethecode.es/php/twig/twig-js-plantillas-twig-en-el-lado-del-cliente/)
