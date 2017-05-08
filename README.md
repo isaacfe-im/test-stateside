@@ -10,7 +10,11 @@ Para iniciar el proyecto hay que ejecutar **sudo npm install**, para descargar l
 
 Después ejecutar **sudo composer install**.
 
-El proyecto cuenta con los siguientes directorios:
+**CONFIGURAR LOCALHOST**
+ - Debe apuntar a la carpeta dev.
+ 
+ 
+**ESTRUCTURA DEL PROYECTO**
 
 * **App** (Contiene las clases PHP para el envío de correo)
 * **assets** (Contiene los archivos Js, Css, imágenes, .htaccess, favicon y demás archivos de la carpeta public o dev)
@@ -34,13 +38,9 @@ En el **data.json** hay una llave **config** que posee valores globales como
 Al ejecutar **grunt** se iniciara la compilacion del sitio en la carpeta dev
 Al ejecutar **grunt prod** se iniciara ejecutara la tarea de Produccion una sola vez y se creara la carpeta web con los archivos de Producción
 
-**CONFIGURAR LOCALHOST**
- - Debe apuntar a la carpeta dev.
-
 #Links de la documentación del compilador TWIG
 [Twig JS](http://showmethecode.es/php/twig/twig-js-plantillas-twig-en-el-lado-del-cliente/)
 
 [Twig Grunt](https://github.com/stefanullinger/grunt-twig-render)
 
 [Pagina de Twig](http://twig.sensiolabs.org/)
-
